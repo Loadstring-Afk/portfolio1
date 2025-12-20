@@ -9,15 +9,16 @@ export const links = [
   { name: 'Contact', id: 'contact' },
 ] as const;
 
-/* ------------------ EXPERIENCE ------------------ */
-/* kept empty so imports don’t crash */
-export const experiencesData = [] as const;
+export const experiencesData = [
+  {
+    title: 'ALFA MODE',
+    location: '',
+    description: 'i delete all my experience cuz im alfa :v',
+    icon: null,
+    date: '',
+  },
+] as const;
 
-/* ------------------ PROJECTS ------------------ */
-export const projectsData = [] as const;
-
-export const projectsNote =
-  'i delete all my projects cuz im alfa :v';
 
 /* ------------------ SKILLS ------------------ */
 export const skillsData = [
