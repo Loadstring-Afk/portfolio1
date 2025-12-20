@@ -10,7 +10,8 @@ export const links = [
 ] as const;
 
 /* ------------------ EXPERIENCE ------------------ */
-/* removed everything 😎 */
+/* kept empty so imports don’t crash */
+export const experiencesData = [] as const;
 
 /* ------------------ PROJECTS ------------------ */
 export const projectsData = [] as const;
